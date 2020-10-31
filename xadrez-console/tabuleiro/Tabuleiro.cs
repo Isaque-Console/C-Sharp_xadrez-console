@@ -30,7 +30,7 @@
             {
                 throw new TabuleiroException("Já existe uma peça nessa posição!");
             }
-                pecas[pos.linha, pos.coluna] = p;
+            pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
         }
         public bool posicaoValida(Posicao pos)
